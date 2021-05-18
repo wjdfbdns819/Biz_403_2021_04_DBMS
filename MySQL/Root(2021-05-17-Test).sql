@@ -170,3 +170,11 @@ CREATE TABLE tbl_books_Rent (
 SELECT * FROM tbl_books;
 SELECT COUNT(*) FROM tbl_books;
 
+SELECT * FROM tbl_company;
+SELECT COUNT(*) FROM tbl_company;
+
+SELECT * FROM tbl_author;
+SELECT COUNT(*) FROM tbl_author;
+
+SELECT * FROM tbl_buyer;
+SELECT COUNT(*) FROM tbl_buyer;
