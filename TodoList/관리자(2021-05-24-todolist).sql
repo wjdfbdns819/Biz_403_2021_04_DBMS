@@ -1,0 +1,10 @@
+-- 관리자 화면
+
+CREATE TABLESPACE todolistDB
+DATAFILE 'C:/oraclexe/data.tolistdbf'
+SIZE 1M AUTOEXTEND ON NEXT 1K;
+
+CREATE USER tbuser IDENTIFIED BY tbuser
+DEFAULT TABLESPACE todolistDB;
+
+GRANT DBA TO tbuser;
